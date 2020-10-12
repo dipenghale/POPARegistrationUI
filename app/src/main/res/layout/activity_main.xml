@@ -43,7 +43,6 @@
         android:drawableLeft="@drawable/ic_email_icon"
         android:background="@drawable/purple_color_box_border"
         style="@style/edt_txt_box"
-        android:inputType="textEmailAddress"
 
         />
 
@@ -91,8 +90,15 @@
             android:layout_height="wrap_content"
             android:text="Others"></RadioButton>
     </RadioGroup>
+<Spinner
+    android:id="@+id/country"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+</Spinner>
 
 <Button
+    android:id="@+id/submit"
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:text="Submit"

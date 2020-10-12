@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">My Popa</string>
+    <string name="detail_text"><u>Detail Text</u></string>
+
+    <string-array name="country_value">
+        <item>Nepal</item>
+        <item>Bhutan</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Bangaladesh</item>
+        <item>Srilanka</item>
+    </string-array>
+
 </resources>
