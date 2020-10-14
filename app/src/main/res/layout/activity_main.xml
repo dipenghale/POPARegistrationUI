@@ -29,6 +29,15 @@
         android:textSize="20sp">
 
     </TextView>
+    <TextView
+        android:id="@+id/error_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        ></TextView>
     <EditText
         android:id="@+id/full_name"
         android:hint="Full Name"
@@ -70,6 +79,7 @@
 
     </TextView>
     <RadioGroup
+        android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -105,5 +115,10 @@
     android:gravity="center"
     android:background="@color/purplecolor"
     android:textColor="@color/white"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purplecolor"
+        android:layout_marginTop="10dp"></TextView>
 
 </LinearLayout>
