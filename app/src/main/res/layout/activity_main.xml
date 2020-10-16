@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -106,7 +111,25 @@
     android:layout_height="50dp">
 
 </Spinner>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your Interest:"></TextView>
+    <CheckBox
+    android:id="@+id/cbox_music"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Music"></CheckBox>
+    <CheckBox
+        android:id="@+id/cbox_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game"></CheckBox>
+    <CheckBox
+        android:id="@+id/cbox_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book"></CheckBox>
 <Button
     android:id="@+id/submit"
     android:layout_width="match_parent"
@@ -122,3 +145,4 @@
         android:layout_marginTop="10dp"></TextView>
 
 </LinearLayout>
+</ScrollView>

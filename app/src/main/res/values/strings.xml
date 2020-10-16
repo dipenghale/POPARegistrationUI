@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">My Popa</string>
+    <string name="app_label">POPA</string>
     <string name="detail_text"><u>Detail Text</u></string>
 
     <string-array name="country_value">
